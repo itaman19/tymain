@@ -1,0 +1,79 @@
+/*login from css------------------------------------
+  --------------------------------------------------
+  --------------------------------------------------*/
+  :root {
+    --main-color: #FF5722;
+  }
+.loginb{
+    background-image: linear-gradient(#FFE0B2 50%,rgb(255,87,34,0.5));
+
+}
+  .loginp{
+    width: 100vw !important;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .loginc{
+    width: 60vw;
+    background-color: white;
+    border: 2px solid var(--main-color);
+    border-radius: 1rem;
+    padding-top: 0;
+    box-shadow: 10px 10px 22px 3px gray;
+    overflow: auto;
+}
+  
+  .logbutton{
+    font-size: large;
+    font-weight: 700 ;
+    padding: 3px 0px 3px 0px;
+    color:var(--main-color) ;
+    background-color: white ;
+    border: 2px solid var(--main-color) ;
+    border-radius: 1.25em;
+  }
+  .logbutton:hover{
+    color:white ;
+    background-color:var(--main-color) ;
+  }
+  .logbutton:focus{
+    outline:none;
+  }
+  
+  .form-group{
+    padding: 10px;
+  }
+  
+  .form-control:focus {
+    border-color: var(--main-color) !important;
+    box-shadow: 0 0 0 0.2rem rgb(255, 87, 34,.25) !important;
+  }
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+  .heading{
+    font-family: 'Kaushan Script', cursive;
+    color: #FAFAFA;
+    justify-content: center;
+    border: 1px solid var(--main-color);
+    border-top-left-radius: .1rem;
+    border-top-right-radius: .1rem;
+    background-color: var(--main-color);
+    padding-top: 3px;
+  }
+
+  h6{
+    width: 100%;
+    color:var(--main-color);
+    text-align: center;
+    border-bottom: 1px solid var(--main-color);
+    line-height: .1em !important;
+    margin: 10px 0 20px;
+  }
+  h6 span {
+      background-color: #fff;
+      padding: 0 10px;
+  }

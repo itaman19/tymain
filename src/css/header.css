@@ -1,0 +1,46 @@
+/*navbar csss-------------------------------------
+---------------------------------------------------
+---------------------------------------------------*/
+:root {
+    --main-color: #FF5722;
+  }
+.navbar-light{
+    background-color: #FBE9E7 !important;
+  }
+
+.navbar-light .navbar-nav .nav-link{
+    color: #212121 !important;
+    font-size: large;
+    font-weight: 500;
+  }
+  
+  .navbar-light .navbar-nav .nav-link:hover{
+    color:var(--main-color) !important;
+    font-weight: 800;
+    border-bottom:4px solid var(--main-color) !important;
+    border-top:4px solid var(--main-color) !important;
+  
+  }
+  
+  .navbar-light .navbar-nav .nav-link:active{
+    color: var(--main-color) !important;
+    font-weight: 800;
+    border-bottom:4px solid var(--main-color) !important;
+    border-top:4px solid var(--main-color) !important;
+  
+  }
+
+  @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
+  .navbar-brand{
+    font-family: 'Kaushan Script', cursive;
+    font-size: xx-large !important;
+    font-weight: 600;
+  }
+
+  .navbar-brand:hover{
+    color: var(--main-color) !important;
+    transform: scale(1.1);
+  }
+
+
