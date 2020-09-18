@@ -3,16 +3,11 @@ import {
   Collapse,
   Navbar,
   NavbarToggler,
-  NavbarBrand,
   Nav,
-  NavItem,
-  NavLink,
-  UncontrolledDropdown,
-  DropdownToggle,
-  DropdownMenu,
-  DropdownItem,
+  NavItem
 } from 'reactstrap';
 import '../css/header.css';
+import {NavLink,Link} from 'react-router-dom';
 
 const N = (props) => {
   const [isOpen, setIsOpen] = useState(false);
@@ -22,33 +17,22 @@ const N = (props) => {
   return (
     <div>
       <Navbar   light expand="md" className="shadow">
-        <NavbarBrand href="/">E-Bazaar</NavbarBrand>
+        <Link to="/home" className="navbar-brand">{"&Bazaar>"}</Link>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
           <Nav className="ml-auto" navbar>
             <NavItem>
-              <NavLink href="#">Components</NavLink>
+              <NavLink to="/home" className="nav-link" ><span className="fa fa-home mr-1"/>Home</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="#">GitHub</NavLink>
+              <NavLink to="/cart" className="nav-link" ><span className="fa fa-shopping-cart mr-1"></span>Cart</NavLink>
             </NavItem>
-            <UncontrolledDropdown nav inNavbar>
-              <DropdownToggle nav caret>
-                Options
-              </DropdownToggle>
-              <DropdownMenu right>
-                <DropdownItem>
-                  Option 1
-                </DropdownItem>
-                <DropdownItem>
-                  Option 2
-                </DropdownItem>
-                <DropdownItem divider />
-                <DropdownItem>
-                  Reset
-                </DropdownItem>
-              </DropdownMenu>
-            </UncontrolledDropdown>
+            <NavItem>
+              <NavLink  to="/wslk" className="nav-link"><span className="fa fa-shopping-bag mr-1"></span>Your-Orders</NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink  to="/ k3slkw2" className="nav-link"><span className="fa fa-address-book mr-1"></span>Contact-Us</NavLink>
+            </NavItem>
           </Nav>
           
         </Collapse>

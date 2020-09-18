@@ -5,7 +5,7 @@
     --main-color: #FF5722;
   }
 .loginb{
-    background-image: linear-gradient(#FFE0B2 50%,rgb(255,87,34,0.5));
+    background-image: linear-gradient(rgba(255, 218, 169, 0.7) 60%,rgb(255,87,34,0.6));
 
 }
   .loginp{
@@ -36,6 +36,7 @@
     border-radius: 1.25em;
   }
   .logbutton:hover{
+    text-decoration:none;
     color:white ;
     background-color:var(--main-color) ;
   }

@@ -1,0 +1,7 @@
+/* for search icon  --------------------------------------------------------------------------------------------------------------*/
+span .fa-search{
+    color:var(--main-color) ;
+    border: 3px solid var(--main-color) !important;
+    border-radius: 100px 100px 100px 100px !important;
+    padding: 7px;
+}

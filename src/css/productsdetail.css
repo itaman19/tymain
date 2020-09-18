@@ -1,0 +1,26 @@
+.image-fluid img{
+    height: 50rem !important;
+}
+
+@media (min-width: 576px) {
+    img{
+        height: 25rem;
+    }
+}
+
+.p-name{
+    border-bottom:1px solid rgb(31, 29, 29,0.5);
+}
+
+.btn{
+    background-color:var(--main-color) !important;
+    color:white !important;
+}
+
+.btn:focus{
+    box-shadow: 0 0 0 0.2rem  #ffd3ae !important;
+}
+
+.imgproduct{
+    border: 1px solid gray;
+}

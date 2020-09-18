@@ -1,0 +1,9 @@
+.card-img{
+    height:20rem !important;
+}
+
+
+.products:hover{
+    transform: scale(1.1);
+    z-index: 1;
+}

@@ -1,9 +1,9 @@
-@media (min-width: 576px) {
+@media (max-width: 576px) {
     .signupc{
         height: 80%;
     }
 }
 
 .signupc{
-    height:90%;
+    height:95%;
 }
