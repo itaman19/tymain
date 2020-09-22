@@ -31,7 +31,7 @@ const N = (props) => {
               <NavLink  to="/wslk" className="nav-link"><span className="fa fa-shopping-bag mr-1"></span>Your-Orders</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink  to="/ k3slkw2" className="nav-link"><span className="fa fa-address-book mr-1"></span>Contact-Us</NavLink>
+              <NavLink  to="/contactus" className="nav-link"><span className="fa fa-address-book mr-1"></span>Contact-Us</NavLink>
             </NavItem>
           </Nav>
           

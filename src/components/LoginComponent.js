@@ -14,12 +14,6 @@ function Login(){
                         <FormGroup row className="d-flex justify-content-center mt-4">
                             <Col sm={12} >
                                 <Input type="mail" name="email" id="email" placeholder="enter your e-mail" className="is-invalid" />
-                                <div class="input-group mb-3">
-                                            <div class="input-group-prepend">
-                                                <span class="input-group-text" id="basic-addon1"><i class="fa fa-user" aria-hidden="true"></i></span>
-                                            </div>
-                                             <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1" />
-                                </div>
                             </Col>
                             <Col sm={12} className="mt-2">                               
                                 <Input type="password" name="password" id="password" placeholder="enter your password" />
@@ -28,7 +22,7 @@ function Login(){
                             <Col sm={12} className="mt-2 d-flex justify-content-center"><Link to="#" >Forget Password?</Link></Col>
                         </FormGroup>
                         <FormGroup row >
-                            <Col sm={12}><h6><span>OR</span></h6></Col>
+                            <Col sm={12}><h6 className="midline"><span>OR</span></h6></Col>
                         </FormGroup>
                         <FormGroup row >
                             <Col sm={12} className="d-flex justify-content-center" >Don't have an account?<Link to="/signup" ><h5>SignUp</h5></Link></Col>

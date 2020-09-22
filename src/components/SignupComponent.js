@@ -37,7 +37,7 @@ function SignUp(){
                             <Col sm={12} className="mt-4"><button className="logbutton btn-block">SignUp</button></Col>
                         </FormGroup>
                         <FormGroup row >
-                            <Col sm={12}><h6><span>OR</span></h6></Col>
+                            <Col sm={12}><h6 className="midline"><span>OR</span></h6></Col>
                         </FormGroup>
                         <FormGroup row >
                             <Col sm={12} className="d-flex justify-content-center" >Already have an account?<Link to="/login"><h5>Login</h5></Link></Col>

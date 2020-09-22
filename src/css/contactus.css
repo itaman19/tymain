@@ -1,0 +1,22 @@
+
+
+.vertical_line{
+    border-right: 2px solid gray;
+}
+
+.errorpara{
+    font-size: 1.3rem;
+}
+
+@media (max-width: 576px) {
+    .vertical_line{
+        border: none;
+    }
+    .separation{
+        border-bottom: 1px solid  rgb(203, 204, 203);
+    }
+    .errorpara{
+        font-size: 1.1rem;
+    }
+}
+

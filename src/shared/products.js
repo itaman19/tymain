@@ -2,42 +2,42 @@ export const products =
     [
         {
         id: 0,
-        name:'Uthappizza',
+        name:'shirt',
         image: 'https://m.media-amazon.com/images/I/71LfK8ZEreL._AC_UL480_FMwebp_QL65_.jpg',
-        category: 'mains',
+        category: '',
         label:'Hot',
         price:'4.99',
         featured: true,
-        description:'A unique combination of Indian Uthappam (pancake) and Italian pizza, topped with Cerignola olives, ripe vine cherry tomatoes, Vidalia onion, Guntur chillies and Buffalo Paneer.'                    
+        description:'Care Instructions: Machine Wash Fit Type: Classic Fit Material - 100% Cotton Regular fit and Full sleeve shirt Collar style - Mandarin collar; Cuff style - Single cuff Pattern - Solid Men’s Casual Shirt Machine wash warm, wash dark colors separately, do not bleach, tumble dry low, warm Iron Made in India '                    
         },
         {
         id: 1,
         name:'shirt',
         image: 'https://m.media-amazon.com/images/I/81FL8qkJnFL._AC_UL480_FMwebp_QL65_.jpg',
-        category: 'appetizer',
+        category: '',
         label:'',
         price:'1.99',
         featured: false,
-        description:'Deep fried Zucchini coated with mildly spiced Chickpea flour batter accompanied with a sweet-tangy tamarind sauce'
+        description:' Care Instructions: Machine Wash Fit Type: Classic Fit Material - 100% Cotton Regular fit and Full sleeve shirt Collar style - Mandarin collar; Cuff style - Single cuff Pattern - Solid Men’s Casual Shirt Machine wash warm, wash dark colors separately, do not bleach, tumble dry low, warm Iron Made in India '
         },
         {
         id: 2,
-        name:'Vadonut',
+        name:'shirt',
         image: '/assets/images/vadonut.png',
-        category: 'appetizer',
+        category: '',
         label:'New',
         price:'1.99',
         featured: false,
-        description:'A quintessential ConFusion experience, is it a vada or is it a donut?'
+        description:'Care Instructions: Machine Wash Fit Type: Classic Fit Material - 100% Cotton Regular fit and Full sleeve shirt Collar style - Mandarin collar; Cuff style - Single cuff Pattern - Solid Men’s Casual Shirt Machine wash warm, wash dark colors separately, do not bleach, tumble dry low, warm Iron Made in India  '
         },
         {
         id: 3,
-        name:'ElaiCheese Cake',
+        name:'shirt',
         image: '/assets/images/elaicheesecake.png',
-        category: 'dessert',
+        category: '',
         label:'',
         price:'2.99',
         featured: false,
-        description:'A delectable, semi-sweet New York Style Cheese Cake, with Graham cracker crust and spiced with Indian cardamoms'
+        description:'Care Instructions: Machine Wash Fit Type: Classic Fit Material - 100% Cotton Regular fit and Full sleeve shirt Collar style - Mandarin collar; Cuff style - Single cuff Pattern - Solid Men’s Casual Shirt Machine wash warm, wash dark colors separately, do not bleach, tumble dry low, warm Iron Made in India  '
         }
     ];

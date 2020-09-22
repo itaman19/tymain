@@ -25,7 +25,7 @@ function ProductDetail({match}){
                             <div className="p-name"><h5>{product1.name}</h5></div>
                             <div className="p-description mt-2"><p>{product1.description}</p></div>
                             <h3 className="col-md-6 col-12">Rs {product1.price}</h3>
-                            <button className=" btn col-12">Add to cart</button>
+                            <button className="btn btn1 col-12">Add to cart</button>
                         </div>
                     </div>
                 </div>
