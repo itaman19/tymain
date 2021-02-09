@@ -4,19 +4,23 @@ import {
   Navbar,
   NavbarToggler,
   Nav,
-  NavItem
+  NavItem,
+  Button
 } from 'reactstrap';
 import '../css/header.css';
 import {NavLink,Link} from 'react-router-dom';
+import { useDispatch } from 'react-redux';
+import { logoutUser } from '../redux/actioncreator';
 
 const N = (props) => {
+  const dispatch = useDispatch();
   const [isOpen, setIsOpen] = useState(false);
 
   const toggle = () => setIsOpen(!isOpen);
 
   return (
     <div>
-      <Navbar   light expand="md" className="shadow">
+      <Navbar   light expand="md" className="shadow  ">
         <Link to="/home" className="navbar-brand">{"&Bazaar>"}</Link>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
@@ -32,6 +36,9 @@ const N = (props) => {
             </NavItem>
             <NavItem>
               <NavLink  to="/contactus" className="nav-link"><span className="fa fa-address-book mr-1"></span>Contact-Us</NavLink>
+            </NavItem>
+            <NavItem>
+              <Button  onClick={()=>dispatch(logoutUser)} className=" btn btn-danger ml-4">Logout</Button>
             </NavItem>
           </Nav>
           

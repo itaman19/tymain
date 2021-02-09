@@ -7,7 +7,7 @@ export default function ContactUs(){
     return(
         <div className="container">
             <div className=" separation row d-flex justify-content-center mt-4 heading "><h2>To Contact Us</h2></div>
-            <div className="row mt-3 bg-light">
+            <div className="row mt-3 bg_light">
                 <div className="separation col-md-6 col-sm-12 vertical_line mt-3 ">
                     <h5 className="d-flex justify-content-center align-items-center mb-2"><i className="fa fa-map-marker mr-1"></i>You can find us here:</h5>
                     <p className=" mb-2">

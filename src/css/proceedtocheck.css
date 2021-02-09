@@ -1,0 +1,8 @@
+.nav-tabs .nav-link.active {
+	color: #fff !important;
+	background-color: #6c757d !important;
+	border-color: #dee2e6 #dee2e6 #fff !important;
+}
+.bg_tab {
+	background-color: #d4edda;
+}

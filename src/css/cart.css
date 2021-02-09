@@ -1,0 +1,26 @@
+.cart_img {
+	height: 15rem !important;
+	border: 1px solid black;
+	padding: 0.5rem;
+}
+.horizontal_line {
+	border-bottom: 1px solid black;
+}
+@media (max-width: 576px) {
+	.vertical_line {
+		border: none;
+	}
+	.cart_separation {
+		border-bottom: none;
+	}
+	.errorpara {
+		font-size: 1.1rem;
+	}
+	.cart_img {
+		height: 10rem !important;
+	}
+}
+
+.bg_light {
+	background-color: #f0f0f0;
+}

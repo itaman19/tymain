@@ -1,22 +1,24 @@
-import React from 'react';
+import React,{useEffect} from 'react';
 import './App.css';
-import Home from './components/HomeComponent';
 import Login from './components/LoginComponent';
 import SignUp from './components/SignupComponent';
-import {Switch, Route} from 'react-router-dom';
+import {Switch, Route,withRouter} from 'react-router-dom';
 import Main from './components/MainComponent';
+import { connect } from 'react-redux';
+import { fetchProducts } from "./redux/actioncreator";
 
-const loggedIn=false;
+
+
+
+
 function App() {
   return (
       <div className="App">
       <Switch >
-      <Route exact path="/">{loggedIn?<Home/>:<Login/>}</Route>
 
-        <Route exact path="/login"><Login/></Route>
-        <Route exact path="/signup"><SignUp/></Route>
-        
-        <Main/>
+        <Route exact path="/login" component={Login}></Route>
+        <Route exact path="/signup" component={SignUp}></Route>
+        <Main />
         
         
         

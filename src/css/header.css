@@ -2,51 +2,46 @@
 ---------------------------------------------------
 ---------------------------------------------------*/
 :root {
-    --main-color: #FF5722;
-  }
-.navbar-light{
-    background-color: #ffe8e7 !important;
-  }
+	--main-color: #ff5722;
+}
+.navbar-light {
+	background-color: #ffe8e7 !important;
+}
 
-.navbar-light .navbar-nav .nav-link{
-    color: #212121 !important;
-    font-size: large;
-    font-weight: 500;
-  }
-  
-  .navbar-light .navbar-nav .nav-link:hover{
-    color:var(--main-color) !important;
-    font-weight: 700;
-    
-    border-bottom:2px solid var(--main-color) !important;
-    border-top:2px solid var(--main-color) !important;
-  
-  }
-  
-  .navbar-light .navbar-nav .nav-link.active{
-    color: var(--main-color) !important;
-    font-weight: 700;
-    border-bottom:2px solid var(--main-color) !important;
-    border-top:2px solid var(--main-color) !important;
-  
-  }
+.navbar-light .navbar-nav .nav-link {
+	color: #212121 !important;
+	font-size: large;
+	font-weight: 500;
+}
 
-  @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+.navbar-light .navbar-nav .nav-link:hover {
+	color: var(--main-color) !important;
+	font-weight: 700;
 
-  .navbar-brand{
-    font-family: 'Kaushan Script', cursive;
-    font-size: xx-large !important;
-    font-weight: 600;
-  }
+	border-bottom: 3px solid var(--main-color) !important;
+}
 
-  .navbar-brand:hover{
-    color: var(--main-color) !important;
-    transform: scale(1.1);
-  }
+.navbar-light .navbar-nav .nav-link.active {
+	color: var(--main-color) !important;
+	font-weight: 700;
+	border-bottom: 3px solid var(--main-color) !important;
+}
 
-  .navbar-brand.active{
-    font-family: 'Kaushan Script', cursive;
-    font-size: xx-large !important;
-    font-weight: 600;
-  }
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap");
 
+.navbar-brand {
+	font-family: "Kaushan Script", cursive;
+	font-size: xx-large !important;
+	font-weight: 600;
+}
+
+.navbar-brand:hover {
+	color: var(--main-color) !important;
+	transform: scale(1.1);
+}
+
+.navbar-brand.active {
+	font-family: "Kaushan Script", cursive;
+	font-size: xx-large !important;
+	font-weight: 600;
+}

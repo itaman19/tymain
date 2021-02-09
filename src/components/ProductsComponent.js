@@ -1,11 +1,12 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import '../css/products.css';
 import {
     Card, CardImg, CardText, CardBody,
     CardTitle, CardSubtitle
   } from 'reactstrap';
-import {products} from '../shared/products';
 import {Link} from 'react-router-dom';
+import { useDispatch, useSelector } from 'react-redux';
+import { fetchProducts } from '../redux/actioncreator';
 
 
 
@@ -18,21 +19,29 @@ function RenderProducts({product}){
                 <CardBody>
                 <CardTitle><h5>{product.name}</h5></CardTitle>
                 <CardSubtitle>{product.category}</CardSubtitle>
-                <CardText><h4>Rs {product.price}</h4></CardText>
+                <h4><CardText>Rs {product.price}</CardText></h4>
                 </CardBody>
         </Card>
         </Link>
     );
 }
 
-function Products(){
+function Products() {
+    const {products} = useSelector(state => state.products)
     const productlist = products.map((product)=>{
         return(
             <div className="col-lg-3 col-md-4 col-12 products" key="product.id">
-            <RenderProducts product={product}/>
+                <RenderProducts product={product}/>
             </div>
         );
     });
+    const dispatch = useDispatch();
+    useEffect(() => {
+        dispatch(fetchProducts());
+        return () => {
+            
+        }
+    }, [])
     return(
                 <div className="container">
                     <div className='row'>{productlist}</div> 
