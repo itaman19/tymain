@@ -1,80 +1,82 @@
 /*login from css------------------------------------
   --------------------------------------------------
   --------------------------------------------------*/
-  :root {
-    --main-color: #FF5722;
-  }
-.loginb{
-    background-image: linear-gradient(rgba(255, 218, 169, 0.7) 60%,rgb(255,87,34,0.6));
-
+:root {
+	--main-color: #ff5722;
 }
-  .loginp{
-    width: 100vw !important;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .loginc{
-    width: 60vw;
-    background-color: white;
-    border: 4px solid var(--main-color);
-    border-radius: 1rem;
-    padding-top: 0;
-    box-shadow: 10px 10px 22px 3px gray;
-    overflow: auto;
+.loginb {
+	background-image: linear-gradient(
+		rgba(255, 218, 169, 0.7) 60%,
+		rgb(255, 87, 34, 0.6)
+	);
 }
-  
-  .logbutton{
-    font-size: large;
-    font-weight: 700 ;
-    padding: 3px 0px 3px 0px;
-    color:var(--main-color) ;
-    background-color: white ;
-    border: 2px solid var(--main-color) ;
-    border-radius: 1.25em;
-  }
-  .logbutton:hover{
-    text-decoration:none;
-    color:white ;
-    background-color:var(--main-color) ;
-  }
-  .logbutton:focus{
-    outline:none;
-  }
-  
-  .form-group{
-    padding: 10px;
-  }
-  
-  .form-control:focus {
-    border-color: var(--main-color) !important;
-    box-shadow: 0 0 0 0.2rem rgb(255, 87, 34,.25) !important;
-  }
+.loginp {
+	width: 100vw !important;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
 
+.loginc {
+	width: 60vw;
+	background-color: white;
+	border: 4px solid var(--main-color);
+	border-radius: 1rem;
+	padding-top: 0;
+	box-shadow: 10px 10px 22px 3px gray;
+	overflow: auto;
+}
 
-  @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
-  .heading{
-    font-family: 'Kaushan Script', cursive;
-    color: #FAFAFA;
-    justify-content: center;
-    border: 1px solid var(--main-color);
-    border-top-left-radius: .1rem;
-    border-top-right-radius: .1rem;
-    background-color: var(--main-color);
-    padding-top: 3px;
-  }
+.logbutton {
+	font-size: large;
+	font-weight: 700;
+	padding: 3px 0px 3px 0px;
+	color: var(--main-color);
+	background-color: white;
+	border: 2px solid var(--main-color);
+	border-radius: 1.25em;
+}
+.logbutton:hover {
+	text-decoration: none;
+	color: white;
+	background-color: var(--main-color);
+}
+.logbutton:focus {
+	outline: none;
+}
 
-  .midline{
-    width: 100%;
-    color:var(--main-color);
-    text-align: center;
-    border-bottom: 1px solid var(--main-color);
-    line-height: .1em !important;
-    margin: 10px 0 20px;
-  }
-  .midline span {
-      background-color: #fff;
-      padding: 0 10px;
-  }
+.form-group {
+	padding: 10px;
+}
+
+.form-control:focus {
+	border-color: var(--main-color) !important;
+	box-shadow: 0 0 0 0.2rem rgb(255, 87, 34, 0.25) !important;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap");
+
+.heading {
+	font-family: "Kaushan Script", cursive;
+	color: #fafafa;
+	justify-content: center;
+	border: 1px solid var(--main-color);
+	border-top-left-radius: 0.1rem;
+	border-top-right-radius: 0.1rem;
+	background-color: var(--main-color);
+	padding-top: 3px;
+}
+
+.midline {
+	width: 100%;
+	color: var(--main-color);
+	text-align: center;
+	border-bottom: 1px solid var(--main-color);
+	line-height: 0.1em !important;
+	margin: 10px 0 20px;
+}
+.midline span {
+	background-color: #fff;
+	padding: 0 10px;
+}

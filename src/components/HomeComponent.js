@@ -1,6 +1,4 @@
-import React, { useEffect } from "react";
-import { useDispatch } from "react-redux";
-import { fetchProducts } from "../redux/actioncreator";
+import React from "react";
 import CarouselComponent from "./CarouselComponent";
 import Products from "./ProductsComponent";
 import Search from './SearchComponent';

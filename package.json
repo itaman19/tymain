@@ -15,10 +15,12 @@
     "react-router-dom": "^5.2.0",
     "react-scripts": "^4.0.1",
     "reactstrap": "^8.9.0",
+    "recharts": "^2.0.8",
     "redux": "^4.0.5",
     "redux-logger": "^3.0.6",
     "redux-thunk": "^2.3.0"
   },
+  "proxy": "https://localhost:3445",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",

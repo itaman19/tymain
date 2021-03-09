@@ -9,13 +9,13 @@ import {
 } from 'reactstrap';
 import '../css/header.css';
 import {NavLink,Link} from 'react-router-dom';
-import { useDispatch, useSelector } from 'react-redux';
+import { useDispatch } from 'react-redux';
 import { logoutUser } from '../redux/actioncreator';
 
 const N = (props) => {
   const dispatch = useDispatch();
   const [isOpen, setIsOpen] = useState(false);
-  const {username} = useSelector(state => state.auth)
+
   const toggle = () => setIsOpen(!isOpen);
 
   return (
@@ -29,16 +29,13 @@ const N = (props) => {
               <NavLink to="/home" className="nav-link" ><span className="fa fa-home mr-1"/>Home</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink to="/cart" className="nav-link" ><span className="fa fa-shopping-cart mr-1"></span>Cart</NavLink>
+              <NavLink to="/users" className="nav-link" ><span className="fa fa-user mr-1"></span>Users</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink  to="/orders" className="nav-link"><span className="fa fa-shopping-bag mr-1"></span>Your-Orders</NavLink>
+              <NavLink  to="/orders" className="nav-link"><span className="fa fa-shopping-bag mr-1"></span>Orders</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink  to="/contactus" className="nav-link"><span className="fa fa-envelope mr-1"></span>Contact-Us</NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink  to="/profile" className="nav-link"><span className="fa fa-user-cog mr-1"></span>{username}</NavLink>
+              <NavLink  to="/feedbacks" className="nav-link"><span className="fa fa-comments mr-1"></span>Feedbacks</NavLink>
             </NavItem>
             <NavItem>
               <button  onClick={()=>dispatch(logoutUser)} className=" btn btn-danger ml-4">Logout</button>

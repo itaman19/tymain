@@ -1,9 +1,15 @@
 @media (max-width: 576px) {
-    .signupc{
-        height: 80%;
-    }
+	.signupc {
+		height: 80%;
+	}
 }
 
-.signupc{
-    height:95%;
+.signupc {
+	height: 95%;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
 }

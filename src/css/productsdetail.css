@@ -1,26 +1,39 @@
-.image-fluid img{
-    height: 50rem !important;
+.image-fluid img {
+	height: 50rem !important;
 }
 
+.comment_image {
+	height: 55px;
+	width: 60px;
+}
+
+.profile_image {
+	height: 105px;
+	width: 110px;
+}
 @media (min-width: 576px) {
-    img{
-        height: 25rem;
-    }
+	img {
+		height: 25rem;
+	}
 }
 
-.p-name{
-    border-bottom:1px solid rgb(31, 29, 29,0.5);
+.p-name {
+	border-bottom: 1px solid rgb(31, 29, 29, 0.5);
 }
 
-.btn1{
-    background-color:var(--main-color) !important;
-    color:white !important;
+.btn1 {
+	background-color: var(--main-color) !important;
+	color: white !important;
 }
 
-.btn1:focus{
-    box-shadow: 0 0 0 0.2rem  #ffd3ae !important;
+.btn1:focus {
+	box-shadow: 0 0 0 0.2rem #ffd3ae !important;
 }
 
-.imgproduct{
-    border: 1px solid gray;
+.imgproduct {
+	border: 1px solid gray;
+}
+
+.fa-star {
+	color: gold;
 }
