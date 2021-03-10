@@ -30,12 +30,11 @@ function SignUp(props) {
          if (pincode.length > 6 || pincode.length < 6) {
                return alert("pincode should be of 6 digits")
             }
-       if (password != repassword) {
+       if (password !== repassword) {
               return  alert("password and reentered password are not same")
             }
-        alert("successfull")
        
-            //dispatch(signUpUser(email, password,username,phonenumber,address,pincode));
+        dispatch(signUpUser(email, password,username,phonenumber,address,pincode));
         
         
         

@@ -396,6 +396,7 @@ export const loginUser = (username, password) => (dispatch) => {
 
 
 export const signUpUser = (email, password, username, phonenumber, address, pincode) => (dispatch) => {
+  alert("your registration request sent successfully");
   return fetch("/users/signup", {
     method: 'POST',
     headers: { 
@@ -418,7 +419,7 @@ export const signUpUser = (email, password, username, phonenumber, address, pinc
     }, error => {
       throw error;
     })
-    .catch(error =>alert(error.message))
+    .catch(error =>alert("user already exists"))
       
   }
 
@@ -760,7 +761,7 @@ export const fetchUser = () => (dispatch) => {
 
 export const forgotPassword = (username) => (dispatch) => {
   
-    
+  alert("your request sent successfully ");
   fetch("/users/forgot", {
     method: 'POST',
     headers: {
@@ -775,7 +776,7 @@ export const forgotPassword = (username) => (dispatch) => {
   })
     .then(response => {
       if (response.ok) {
-        alert("A verification email has been sent to "+username);
+        alert("A reset link has been sent to "+username);
         console.log(response.json());
           
       }
