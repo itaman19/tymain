@@ -1,4 +1,19 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**Screen shots of app **
+![addtocart](https://user-images.githubusercontent.com/53750987/113089663-c0ad3280-9205-11eb-894b-3b693ca659e1.png)
+![admihome](https://user-images.githubusercontent.com/53750987/113089715-da4e7a00-9205-11eb-9798-4f8a9dd22d4d.png)
+![adminorders](https://user-images.githubusercontent.com/53750987/113089727-e1758800-9205-11eb-8b74-8f6d7c624fbe.png)
+![contactus](https://user-images.githubusercontent.com/53750987/113089735-e5a1a580-9205-11eb-968e-a62da2491350.png)
+![feedbacks](https://user-images.githubusercontent.com/53750987/113089742-e9cdc300-9205-11eb-80aa-755e386a5732.png)
+![forgotpassword](https://user-images.githubusercontent.com/53750987/113089755-ee927700-9205-11eb-910d-ea599c8b8a76.png)
+![login](https://user-images.githubusercontent.com/53750987/113089777-f8b47580-9205-11eb-8b81-dc62ea56063a.png)
+![paymentgateway](https://user-images.githubusercontent.com/53750987/113089788-ff42ed00-9205-11eb-8664-5e208c5024a3.png)
+![signup](https://user-images.githubusercontent.com/53750987/113089806-0bc74580-9206-11eb-91dd-132a9dd3aa2b.png)
+![userhome](https://user-images.githubusercontent.com/53750987/113089824-141f8080-9206-11eb-9c2d-a76ca3190dc8.png)
+![userorders](https://user-images.githubusercontent.com/53750987/113089837-1c77bb80-9206-11eb-8771-c66cfa2a7b9a.png)
+![userproducts](https://user-images.githubusercontent.com/53750987/113089847-20a3d900-9206-11eb-8b05-cfdac95c0a78.png)
+![userprofile](https://user-images.githubusercontent.com/53750987/113089852-24376000-9206-11eb-87ac-ce72c4a40d5a.png)
+![users](https://user-images.githubusercontent.com/53750987/113089875-2dc0c800-9206-11eb-8d87-99f330228519.png)
 
 ## Available Scripts
 
@@ -66,3 +81,5 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `yarn build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+
